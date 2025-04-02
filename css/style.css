@@ -1,0 +1,65 @@
+.l-container {
+  width: 90%;
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.l-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #eee;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+
+.l-header.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #444;
+  color: #fff;
+}
+
+.logo {
+  text-transform: uppercase ;
+  font-weight: bold;
+}
+
+.header-list {
+  display: flex;
+  font-weight: bold;
+}
+
+.header-item:not(:first-child) {
+  margin-left: 24px;
+}
+
+/* kv */
+.top-kv {
+  height: 100vh;
+  display: flex;
+  background: #eee;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-kv-title {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.about-kv {
+  text-align: center;
+  background: #eee;
+}
+
+.about-kv-title {
+  font-size: 3rem;
+  font-weight: 900;
+  padding: 2em;
+}
